@@ -11,4 +11,4 @@ Vagrant.configure("2") do |config|
    config.vm.hostname = "scotchbox"
    config.vm.synced_folder ".", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
  
-end
+end 
